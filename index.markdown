@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Feed
+title: Home
 permalink: /
 ---
 {% for post in site.posts limit: 3 %}
@@ -12,5 +12,8 @@ permalink: /
     {% else %}
         {{ post.content | strip_html | strip_newlines | truncate: 500 }}
     {% endif %}</p>
+          {% if site.googlePlus %}
+
+      {% endif %}
 {% endfor %}
 ---
