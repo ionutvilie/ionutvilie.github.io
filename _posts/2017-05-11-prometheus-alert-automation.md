@@ -2,7 +2,7 @@
 layout: post
 title:  "Prometheus Alert Automation"
 date:   2017-05-11 10:00:00 0000
-categories: prometheus.io automation golang
+categories: prometheus.io alertmanager templates golang
 ---
 
 
